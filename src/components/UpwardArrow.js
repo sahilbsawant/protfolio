@@ -30,7 +30,7 @@ const UpwardArrow = () => {
           border: "none",
           padding: "10px",
           position: "fixed",
-          bottom: 10,
+          bottom: 20,
           right: 10,
         }}
         onClick={gototop}

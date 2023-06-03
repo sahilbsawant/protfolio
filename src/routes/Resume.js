@@ -7,7 +7,7 @@ const Resume = () => {
           <div className="section-title ">
             <h2 className="fontsz line">Resume</h2>
             <p>
-              Innovative, task-driven, professional with 1+ years of experience
+              Innovative, task-driven, professional with 3+ Month of experience
               in web design and development across diverse industries. Equipped
               with a record of success in consistently identifying and proving
               the technological needs of companies through ingenious innovation.
@@ -19,12 +19,12 @@ const Resume = () => {
 
           <div className="row">
             <div className="col-lg-6">
-              <h3 className="resume-title">Sumary</h3>
+              <h3 className="resume-title">Summary</h3>
               <div className="resume-item pb-0">
                 <h4>Sahil B.Sawant</h4>
                 <p>
                   <em>
-                    Innovative and deadline-driven Web Developer with 1+ years
+                    Innovative and deadline-driven Web Developer with 3+ Month
                     of experience designing and developing full stack
                     application from initial concept to final, polished
                     deliverable.
@@ -39,7 +39,15 @@ const Resume = () => {
 
               <h3 className="resume-title">Education</h3>
               <div className="resume-item">
-                <h4>Bachelor of Science &amp; Computer Science</h4>
+                <h4>Master of Science In Information Technology</h4>
+                <h5>2021 - Present</h5>
+                <p>
+                  <em>Mumbai University, Mumbai, India</em>
+                </p>
+                <p> Pursuing (Last Year)</p>
+              </div>
+              <div className="resume-item">
+                <h4>Bachelor of Science In Computer Science</h4>
                 <h5>2018 - 2021</h5>
                 <p>
                   <em>VPM'S R.Z.Shah College, Mumbai, India</em>
@@ -59,7 +67,7 @@ const Resume = () => {
               </div>
               <div className="resume-item">
                 <h4>SSC</h4>
-                <h5>2014 - 2015</h5>
+                <h5>2015 - 2016</h5>
                 <p>
                   <em>Powai English High School, Mumbai, India</em>
                 </p>
@@ -91,7 +99,7 @@ const Resume = () => {
           </div>
 
           <div className="text-center mb-4">
-            <a href="/resume/Sahil_Sawant.pdf" className="btn btn-primary">
+            <a href="/resume/C.V-SAHIL_SAWANT.pdf" className="btn btn-primary">
               <i className="bx bx-file-blank"></i> Download Resume
             </a>
           </div>

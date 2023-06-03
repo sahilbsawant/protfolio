@@ -14,7 +14,7 @@
    content: '';
    position: absolute;
    width: 100%;
-   height: 4px;
+   height: 1px;
    border-radius: 4px;
    background-color: white;
    bottom: 0;
@@ -31,4 +31,46 @@
  .active{
    border-bottom: 1px solid white;
  }
+
  
+
+ .menunavbar{
+  
+  font-size: x-large;
+  padding: 10px;
+
+ }
+
+  .navspace {
+  padding: 12px ;
+} 
+
+
+ @media only screen and (max-width:450px) {
+
+  .hide{
+    display: none !important;
+  }
+
+  
+  
+ }
+
+ @media only screen and (min-width:450px) {
+
+  .mqshow{
+    display: none !important;
+  } 
+  
+ }
+ 
+ .hideCanva{
+  display: none;
+  
+ }
+
+ @media only screen and (min-width: 1200px){
+  .hideCanva{
+    display:none;
+  }
+ }

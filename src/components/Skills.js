@@ -25,7 +25,7 @@ const Skills = () => {
             ></div>
           </div>
         </div>
-        <div className="col-lg-6 ">
+        <div className="col-lg-6 mt-3  ">
           <h4
             style={{
               fontSize: "17px",
@@ -33,7 +33,7 @@ const Skills = () => {
               fontWeight: "600",
             }}
           >
-            CSS <span className="float-end">85%</span>
+            CSS <span className="float-end fs-5">85%</span>
           </h4>
           <div className="progress" style={{ height: "8px" }}>
             <div
@@ -96,13 +96,13 @@ const Skills = () => {
               fontWeight: "600",
             }}
           >
-            PHP <span className="float-end fs-5">50%</span>
+            PHP <span className="float-end fs-6">IN PROGRESS</span>
           </h4>
           <div className="progress" style={{ height: "8px" }}>
             <div
               className="progress-bar "
               role="progressbar"
-              style={{ width: "50%" }}
+              style={{ width: "6%" }}
               aria-valuenow="100"
               aria-valuemin="0"
               aria-valuemax="100"

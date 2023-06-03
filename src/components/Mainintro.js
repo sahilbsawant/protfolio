@@ -26,12 +26,12 @@ const Maninintro = () => {
       </div> */}
 
       <div
-        className="text-center  bg-image"
+        className="text-center  "
         style={{
           backgroundImage: `url(${intro})`,
           height: "120vh",
           marginTop: "52px",
-          // // width: "100%",
+          width: "100%",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
@@ -51,15 +51,23 @@ const Maninintro = () => {
             <div style={{ paddingTop: "140px" }}>
               <h3
                 className="text-center"
-                style={{ fontFamily: "Open Sans", fontWeight: "lighter" }}
+                style={{
+                  fontFamily: "Open Sans",
+                  fontWeight: "lighter",
+                }}
               >
                 HI I'M SAHIL B.SAWANT
               </h3>
               <h1
-                className="fontsz"
-                style={{ fontSize: "50px", color: "white" }}
+                className="fontsz mq"
+                style={{
+                  fontSize: "50px",
+                  color: "white",
+                  WebkitTextStroke: "0.5px brown  ",
+                }}
               >
-                FRONTEND{" "}
+                FRONTEND
+                <br />
                 <span style={{ display: "inline-block " }}>
                   <Typewriter
                     options={{

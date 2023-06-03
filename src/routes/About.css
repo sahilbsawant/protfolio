@@ -1,0 +1,13 @@
+.alignMe h {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    /* padding-right: 10px; 
+    /* Ensures colon does not overlay the text */ 
+  }
+  
+  .alignMe h::after {
+    content: ":";
+    position: absolute;
+    right: 10px;
+  }

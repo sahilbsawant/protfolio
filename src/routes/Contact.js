@@ -38,33 +38,31 @@ const Contact = () => {
 
   const validateform = () => {
     if (contact.Name === "") {
-      setErrorname("Please fill all the details");
+      return setErrorname("Please fill all the details");
     }
 
     if (contact.Email === "") {
-      setErroremail("Please fill all the details");
+      return setErroremail("Please fill all the details");
     }
 
     if (/\S+@\S+\.\S+/.test(contact.Email) === false) {
-      setErroremail("Email is invalid!");
+      return setErroremail("Email is invalid!");
     }
 
     if (contact.Subject === "") {
-      setErrorsubject("Please fill all the details");
+      return setErrorsubject("Please fill all the details");
     }
 
     if (contact.Message === "") {
-      setErrormessage("Please fill all the details");
+      return setErrormessage("Please fill all the details");
     }
 
-    if (
-      contact.Name !== "" &&
-      contact.Email !== "" &&
-      contact.Subject !== "" &&
-      contact.Message !== ""
-    ) {
-      alert("You have Succesfully Submitted ");
-    }
+    setErroremail("");
+    setErrorname("");
+    setErrormessage("");
+    setErrorsubject("");
+
+    alert("Successfull");
   };
 
   return (
@@ -95,7 +93,7 @@ const Contact = () => {
             </div>
 
             <div className="col-lg-6">
-              <div className="bg-secondary bg-opacity-10">
+              <div className="bg-secondary bg-opacity-10 ">
                 <h3 className="ms-2 p-3 fontstyh">
                   <MailOutlineOutlinedIcon className=" text-primary iconstyle "></MailOutlineOutlinedIcon>
                   &nbsp; Email

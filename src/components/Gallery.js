@@ -8,43 +8,44 @@ const Gallery = () => {
         <h1 className="fontsz line"> Gallery</h1>
 
         <p className="page-description text-center">
-          A Photography by sahil b sawant.
+          A Photography by Sahil b.Sawant.
         </p>
 
         <div className="tz-gallery">
           <div className="row">
             <div className="col-sm-12 col-md-4">
-              <a className="lightbox" href="/gallery/bridge.jpg">
-                <img src="/gallery/bridge.jpg" alt="Bridge" />
+              <a className="lightbox" href="/gallery/grass.jpg">
+                <img src="/gallery/grass.jpg" alt="grass" />
               </a>
             </div>
             <div className="col-sm-6 col-md-4">
-              <a className="lightbox" href="../gallery/park.jpg">
-                <img src="/gallery/park.jpg" alt="Park" />
+              <a className="lightbox" href="../gallery/rain.jpg">
+                <img src="/gallery/rain.jpg" alt="rain" />
               </a>
             </div>
             <div className="col-sm-6 col-md-4">
-              <a className="lightbox" href="/gallery/tunnel.jpg">
-                <img src="/gallery/tunnel.jpg" alt="Tunnel" />
+              <a className="lightbox" href="/gallery/mango.jpg">
+                <img src="/gallery/mango.jpg" alt="mango" />
               </a>
             </div>
             <div className="col-sm-12 col-md-8">
-              <a className="lightbox" href="/gallery/traffic.jpg">
-                <img src="/gallery/traffic.jpg" alt="Traffic" />
+              <a className="lightbox" href="/gallery/pagoda.jpg">
+                <img src="/gallery/pagoda.jpg" alt="Traffic" />
               </a>
             </div>
             <div className="col-sm-6 col-md-4">
-              <a className="lightbox" href="/gallery/coast.jpg">
-                <img src="/gallery/coast.jpg" alt="Coast" />
+              <a className="lightbox" href="/gallery/hill.jpg">
+                <img src="/gallery/hill.jpg" alt="hill" />
               </a>
             </div>
             <div className="col-sm-6 col-md-4">
-              <a className="lightbox" href="/gallery/rails.jpg">
-                <img src="/gallery/rails.jpg" alt="Rails" />
+              <a className="lightbox" href="/gallery/drop.jpg">
+                <img src="/gallery/drop.jpg" alt="Rails" />
               </a>
             </div>
           </div>
         </div>
+        {/* <button className="btn btn-primary float-end p-4">View More</button> */}
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ const Services = () => {
         <div className="container ">
           <br />
           <h2 className="mt-5  line fontsz"> We Offers</h2>
-          <div className="row gy-5 ">
+          <div className="row gy-5 mt-1">
             {Servicesdata.map((curval, index) => {
               console.log(curval.logo);
               return (
